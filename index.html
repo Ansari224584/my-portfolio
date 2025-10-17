@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzaifa Umer Ansari | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo"> My Portfolio<span></span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header/Hero Section with Slider -->
+    <header>
+        <div class="hero-slider">
+            <div class="hero-slides">
+                <div class="slides-container" id="slides-container">
+                    <!-- Slides will be added by JavaScript -->
+                </div>
+                
+                <div class="slide-controls">
+                    <button class="slide-btn" id="prev-slide">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slide-btn" id="next-slide">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slide-indicators" id="slide-indicators">
+                    <!-- Indicators will be added by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Hi, I'm <span class="highlight">Huzaifa Umer Ansari</span><br>
+                <strong>Software Engineer | Full Stack Developer | Automation Specialist</strong></p>
+                
+                <p>I design intelligent solutions that bridge technology and business needs. With expertise in both software development and process automation, I build robust applications and efficient tools that solve real-world problems.</p>
+                
+                <div class="features">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Robust web applications using MERN stack with clean, maintainable code.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Automation</h3>
+                        <p>Efficient business tools with Python/Excel automation to optimize workflows.</p>
+                    </div>
+                    
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Data Analysis</h3>
+                        <p>Transform raw data into actionable insights for informed decision-making.</p>
+                    </div>
+
+                    <div class="feature-card fade-in">
+    <div class="feature-icon">
+        <i class="fas fa-pencil-ruler"></i>
+    </div>
+    <h3>UI & UX Design</h3>
+    <p>Designing intuitive and visually engaging user interfaces with seamless user experiences that make every interaction meaningful and effortless.</p>
+</div>
+
+                </div>
+                
+                <p style="margin-top: 40px;"><strong>Let's connect to discuss how technology can transform your operations!</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <h3>Programming & Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">R (Programming Language)</span>
+                        <span class="skill-tag">VBA Excel</span>
+                        <span class="skill-tag">AI</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3>Specializations</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Full Stack Development</span>
+                        <span class="skill-tag">Automation</span>
+                        <span class="skill-tag">System Design</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Web Application Development</span>
+                        <span class="skill-tag">Process Optimization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-slider fade-in">
+                <div class="project-details">
+                    <h3 id="project-title">E-commerce Website</h3>
+                    <p id="project-description">A fully responsive e-commerce platform with product catalog, shopping cart, and secure checkout system.</p>
+                    <ul class="project-features" id="project-features">
+                        <li>Responsive design for all devices</li>
+                        <li>Product search and filtering</li>
+                        <li>Secure payment integration</li>
+                        <li>User account management</li>
+                    </ul>
+                    <div>
+                        <a href="#" id="project-link" class="btn" target="_blank">Visit Website</a>
+                    </div>
+                </div>
+                <div class="project-slides">
+                    <div class="project-slides-container" id="project-slides-container">
+                        <!-- Project slides will be added by JavaScript -->
+                    </div>
+                    <div class="project-slide-controls">
+                        <button class="project-slide-btn" id="prev-project-slide">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="project-slide-btn" id="next-project-slide">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-slide-indicators" id="project-slide-indicators">
+                <!-- Project indicators will be added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2025 - Present </div>
+                        <h3 class="timeline-title">Python Developer</h3>
+                        <p class="timeline-company">Viper Technologies R&D Ltd.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">October 2024 - March 2025 </div>
+                        <h3 class="timeline-title">Data Analyst</h3>
+                        <p class="timeline-company">Dawood Public School</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2023 - August 2024 </div>
+                        <h3 class="timeline-title">Senior Web Application Developer</h3>
+                        <p class="timeline-company">Al hayat embordery</p>
+                        <p>Karachi Central District, Sindh, Pakistan</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">January 2021 - May 2023 </div>
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <p class="timeline-company">ZTech Software Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card fade-in">
+                    <h3>Bachelor's degree, Computer Software Engineering</h3>
+                    <div class="education-period">Aptech Learning <br> October 2021 - December 2024</div>
+                </div>
+                
+                <div class="education-card fade-in">
+                    <h3>Intermediate <br>Pre engineering group</h3>
+                    <div class="education-period">Jinnah Government College <br> 2020 - 2021</div>
+                </div>
+                
+                <div class="education-card fade-in">
+                    <h3>Matric, Computer Science</h3>
+                    <div class="education-period">Government Boys School <br> April 2017 - July 2019</div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-slider">
+                    <div class="testimonial-track" id="testimonial-track">
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">"Huzaifa delivered an exceptional e-commerce solution for our business. His attention to detail and technical expertise resulted in a platform that exceeded our expectations."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah khan</h4>
+                                    <p>CEO, The White Company</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">"Working with Huzaifa was a game-changer for our data analysis processes. He automated complex workflows that saved us countless hours each month."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>kamran khan </h4>
+                                    <p>Director for IT Dep, Dawood Public School</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-slide">
+                            <p class="testimonial-text">"Huzaifa frontend development skills are outstanding. He transformed our web application with a modern, responsive design that our users love."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Ali Rehman</h4>
+                                    <p>Product Manager, ZTech Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav" id="testimonial-nav">
+                    <!-- Indicators will be added by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Feel free to reach out for collaborations or just a friendly hello</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to say hello, feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item fade-in">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>huzaifaumeransari@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item fade-in">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>huzaifa-umer-ansari-b82897366</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item fade-in">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Karachi Division, Sindh, Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="mailto:huzaifaumer@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/huzaifa-umer-ansari-b82897366" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                
+                <p>&copy; 2025 Huzaifa Umer Ansari. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="min.js"></script>
+</body>
+</html>
